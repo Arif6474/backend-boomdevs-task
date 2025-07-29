@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "lint": "eslint ."
+  },
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "eslint": "^9.25.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "nodemon": "^2.0.19"
+  },
+  "imports": {
+    "#models/*": "./models/*",
+    "#controllers/*": "./controllers/*",
+    "#routes/*": "./routes/*",
+    "#middleware/*": "./middleware/*",
+    "#services/*": "./services/*",
+    "#config/*": "./config/*",
+    "#utils/*": "./utils/*"
+  }
+}
