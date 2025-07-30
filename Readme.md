@@ -10,8 +10,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/monthly-sales-backend.git
-cd monthly-sales-backend
+git clone https://github.com/Arif6474/backend-boomdevs-task.git
+
 ```
 
 ### 2. Create `.env` File
