@@ -5,7 +5,7 @@ import publicRoutes from './publicRoutes/publicRoutes.js'
 const routes = Router()
 
 routes.use('/public', publicRoutes)
-routes.get("/insertData", insertData)
+// routes.get("/insertData", insertData)
 
 
 export default routes
