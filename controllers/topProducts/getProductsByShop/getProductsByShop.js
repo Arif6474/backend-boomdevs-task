@@ -95,8 +95,8 @@ export const getTopProductsByShop = async (req, res) => {
                 message: 'Top products fetched successfully',
                 status: 200,
                 data: {
-                    products: sortedProducts.slice(0, 4), // Return top 4 products
-                    shops: sortedStores.slice(0, 4) // Return top 4 stores
+                    products: sortedProducts.slice(0, 8), // Return top 4 products
+                    shops: sortedStores.slice(0, 8) // Return top 4 stores
                 }
             });
         }
